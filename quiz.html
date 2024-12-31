@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Connaître ma personnalité</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Quiz - Connaître ma personnalité</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="Experience_Professionnelles.html">Expériences</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="quiz.html" class="active">Quizz</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="quiz-container">
+        <h2>Testez vos connaissances sur ma personnalité</h2>
+        <form id="quiz-form">
+            <table class="quiz-table">
+
+                <tr>
+                    <td class="question">1. Quelle est ma couleur préférée ?</td>
+                    <td class="answers">
+                        <label><input type="radio" id="q1a" name="q1" value="a"> Bleu</label><br>
+                        <label><input type="radio" id="q1b" name="q1" value="b"> Rouge</label><br>
+                        <label><input type="radio" id="q1c" name="q1" value="c"> Vert</label>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="question">2. Quelle est mon activité préférée ?</td>
+                    <td class="answers">
+                        <label><input type="radio" id="q2a" name="q2" value="a"> Lire un livre</label><br>
+                        <label><input type="radio" id="q2b" name="q2" value="b"> Sortir avec des amis</label><br>
+                        <label><input type="radio" id="q2c" name="q2" value="c"> Jouer à des jeux vidéo</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="question">3. Quel est mon type de musique préféré ?</td>
+                    <td class="answers">
+                        <label><input type="radio" id="q3a" name="q3" value="a"> Rock</label><br>
+                        <label><input type="radio" id="q3b" name="q3" value="b"> Classique</label><br>
+                        <label><input type="radio" id="q3c" name="q3" value="c"> Électronique</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="question">4. Comment préfères-tu passer ton temps libre ?</td>
+                    <td class="answers">
+                        <label><input type="radio" id="q4a" name="q4" value="a"> Voyager</label><br>
+                        <label><input type="radio" id="q4b" name="q4" value="b"> Travailler sur des projets personnels</label><br>
+                        <label><input type="radio" id="q4c" name="q4" value="c"> Se détendre à la maison</label>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="submit-container">
+                <button type="button" class="submit-button" onclick="calculateResult()">Soumettre</button>
+            </div>
+        </form>
+
+        
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Mon site personnel</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

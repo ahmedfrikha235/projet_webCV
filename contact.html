@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contactez-moi</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="Experience_Professionnelles.html">Expériences</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a href="quiz.html">Quizz</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-form">
+      <h2>Envoyez-moi un message</h2>
+      <form action="mailto:ahmedfrikha235@example.com" method="post" enctype="text/plain">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+        <label for="email">E-mail :</label>
+        <input type="email" id="email" name="email" placeholder="Votre adresse e-mail" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+
+    <section class="call-me">
+      <h2>Appelez-moi</h2>
+      <p>Vous pouvez également me joindre directement par téléphone :</p>
+      <a href="tel:+21623578942" class="call-button">📞 +216 23 578 942</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Mon site personnel</p>
+  </footer>
+</body>
+</html>

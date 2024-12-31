@@ -1,0 +1,317 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem ;
+  text-align: center;
+}
+
+header nav ul {
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin:  10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+  
+
+main {
+  padding: 2rem;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.about img {
+  max-width: 170px;
+  height: auto;
+  border-radius: 40px;
+  border: 2px solid #333;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  margin-top: 0;
+}
+
+.progress-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.step {
+  text-align: center;
+  flex: 1;
+}
+
+.step .icon {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.step p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  margin: 0 10px;
+}
+
+.social-media {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.social-media h2 {
+  margin-bottom: 20px;
+}
+
+.social-media .icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-media .icons a img {
+  width: 80px;
+  height: 70px;
+  transition: transform 0.3s;
+}
+
+.social-media .icons a img:hover {
+  transform: scale(1.2);
+}
+
+.competences {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+}
+
+.competences h2 {
+ font-size: 1.8rem;
+}
+
+.competences a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.competences a:hover {
+  background-color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.experience {
+  background: #f9f9f9;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+}
+
+.experience h2 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.experience p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background: #555;
+}
+
+.call-me {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.call-me h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.call-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.call-button:hover {
+  background-color: #555;
+}
+
+
+.quiz-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-container h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.quiz-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.quiz-table td {
+  padding: 15px;
+  vertical-align: top;
+  border: 1px solid #ddd;
+}
+
+.quiz-table .question {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.quiz-table .answers {
+  padding-left: 20px;
+}
+
+.quiz-table .answers label {
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.submit-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #555;
+}
+
+.quiz-result {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #333;
+}
+
+
